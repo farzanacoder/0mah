@@ -49,15 +49,72 @@ p{
     font-size: 56px;
     font-weight: 600;
 }
+.fa-location-dot{
+    position: absolute;
+    left: 40px;
+    color: #203239;
+    width: 16.51px;
+    height: 20.17px;
+    top: 1.5px;
+    left: 3.74px;
+}
 input{
     position: relative;
+}
+.form-control{
+    border-radius: 10px;
 }
 .btn{
     position: absolute;
     margin-top: 10px;
     right: 700px;
+    color: #FFFFFF;
+    background: #203239;
+    width: 140px;
+    /* height: 50px; */
+    border-radius: 10px;
+    opacity: 0px;
+}
+.btn:hover{
+    box-shadow: 0px 6px 8px 0px #20323940;
+
 }
 
 
+/* card_part start here */
+.card_head h3{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+/* explore_part start here */
+.explore{
+    background: #EEEDDE;
+}
+.btn_1{
+    color: #FFFFFF;
+    background: #203239;
+    /* width: 140px; */
+    /* height: 50px; */
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+
+
+/* residen_part start here */
+
+
+
+
+/* footer_part start here */
+footer{
+    background: #EEEDDE;
+}
+.fbody{
+    background: #203239;
+    color: #FFFFFF;
+}
 
 
