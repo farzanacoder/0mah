@@ -16,10 +16,13 @@ p{
 .hero_part{
     background: #EEEDDE;
 }
-/* .rotate{
-    rotate: 30deg;
-    color: red;
-} */
+.rotate{
+    display: inline-block;
+    transform: rotate(11deg);
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
 .navbar ul li{
     padding: 0 10px;
     margin-left: 31px;
@@ -103,12 +106,50 @@ span{
 
 
 /* card_part start here */
-.card_head h3{
-    font-size: 36px;
-    font-weight: 600;
+.card-body{
+    margin-left: 15px;
 }
 
-
+.card-title{
+    margin-bottom: 15px;
+}
+.card_head h3{
+    font-size: 39px;
+    font-weight: 600;
+    width: 45%;
+}
+.card_body{
+    position: relative;
+}
+.card_or {
+	position: absolute;
+	font-weight: 900;
+	left: -3px;
+	font-size: 30px;
+    top: 5px;
+}
+.card_no{
+    position: absolute;
+    right: 18px;
+}
+.card-text{
+    width: 90%;
+    margin-bottom: 50px;
+}
+.card_anc{
+    color: #203239;
+    background: #D6D5C7;
+}
+.card-link{
+    text-decoration: none;
+    color: #203239;
+}
+.card-link i{
+    margin-left: 25px;
+}
+.card_botom{
+    padding-bottom: 20px;
+}
 /* explore_part start here */
 .explore{
     background: #EEEDDE;
