@@ -153,16 +153,49 @@ span{
 /* explore_part start here */
 .explore{
     background: #EEEDDE;
+    padding-bottom: 169px !important;
 }
 .btn_1{
     color: #FFFFFF;
     background: #203239;
-    /* width: 140px; */
-    /* height: 50px; */
     border-radius: 10px;
-    padding: 10px 10px;
+    transition: .4s ease-in-out;
 }
+.btn_1:hover{
+    border: 1px solid #000;
+    background: transparent;
+    color: #000;
+}
+.p_txt{
+    font-size: 20px;
+    font-weight: 600;
+}
+.h3_txt{
+    font-size: 45px;
+    font-weight: 600;
+}
+.text-dark{
+    width: 100%;
+    font-size: 17px;
+}
+.btn_border{
+    border: 1px solid #000;
+    background: transparent;
+    color: #000;
 
+}
+.btn_border:hover{
+    background: #203239;
+    color: #FFFFFF;
+}
+.img_position{
+    position: relative;
+}
+.img_pos{
+    position: absolute;
+    left: 86px;
+    top: 65px;
+}
 
 
 /* residen_part start here */
