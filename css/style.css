@@ -202,6 +202,9 @@ span{
 .p_color{
     color: #FF7527CC;
 }
+.card_img p{
+    color: #203239;
+}
 
 
 
@@ -213,8 +216,20 @@ footer{
     background: #203239;
     color: #FFFFFF;
 }
+.card-body{
+    position: relative;
+}
+.card-body i{
+    position: absolute;
+    top: 24px;
+    left: 17px;
+    font-size: 25px;
+}
+.c_txt{
+    margin-left: 27px;
+}
 .card_btn1{
-    padding: 10px 30px;
+    padding: 14px 85px;
     color: #FF7527CC;
     background: #FF752733;
     border-radius: 10px;
@@ -224,12 +239,19 @@ footer{
     color: #FFFFFF;
     background: #FF7527CC;
     border-radius: 10px;
-    padding: 10px 30px;
+    padding: 14px 80px;
     text-decoration: none;
 }
 .card_border{
     border: 1px solid #FF7527CC;
-
+    background: transparent;
 }
+.social_links{
+    padding-left: 360px;
+}
+.social_links i{
+    cursor: pointer;
+}
+
 
 
